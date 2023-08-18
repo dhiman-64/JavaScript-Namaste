@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100% ;
+}
+
+
+/* Targeting using Tag, Class, ID */
+
+h1{
+    background: aqua;
+    color: rgb(3, 112, 206);
+}
+
+.A{
+    background: pink;
+    color: maroon;
+}
+
+#B{
+    background: red;
+    color: white;
+}
+
+
+/* Understanding Width and Height */
+
+#main{
+    width: 20%;
+    height: 40%;
+    background-color:  plum;
+}
+
+
+/* Understanding Units px , % */
+
+/* % -> If we don't know the exact size of the screen, then use %  it use with respect to parent */
+/* px-> When you know the exact size */
+
+
+
+/* Margin and Padding */
+
+
+#main{
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 25px;
+    margin: 50px;
+}
+
+
+#A{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1691959381753-815d0ce8c4a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
